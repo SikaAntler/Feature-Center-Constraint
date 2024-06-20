@@ -26,10 +26,10 @@ Based on this, we created a new configuration for each method. The details are s
 | :------------------------: | :----------------------------------------------------------: | :-------: | :-------: |
 |          General           |          [Cross-Entropy Loss](./configs/base.yaml)           |   0.879   |   0.785   |
 |        Re-sampling         | [Class-Balanced Sampling](./configs/class-balanced-sampling.yaml) |     /     |     /     |
-|                            |    [Square-Root Sampling](./configs/square-root-sampling)    |   0.898   |   0.820   |
+|                            | [Square-Root Sampling](./configs/square-root-sampling.yaml)  |   0.898   |   0.820   |
 |                            |  [Decoupling Training](./configs/decoupling-training.yaml)   |   0.748   |   0.635   |
 |        Re-weighting        |         [Re-weighting](./configs/re-weighting.yaml)          |   0.851   |   0.763   |
-|                            | [$\tau$-normalized Classifier](./configs/tao-normalized-classifier.yaml) |     /     |     /     |
+|                            | [$\tau$-normalized Classifier](./configs/tau-normalized-classifier.yaml) |     /     |     /     |
 |                            |     [Effective-Number](./configs/effective-number.yaml)      |   0.896   |   0.819   |
 |                            | [Balanced-Softmax Loss](./configs/balanced-softmax-loss.yaml) |   0.916   |   0.793   |
 |                            |  [Logit-Adjusted Loss](./configs/logit-adjusted-loss.yaml)   |   0.893   |   0.804   |
