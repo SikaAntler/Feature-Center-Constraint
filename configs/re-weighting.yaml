@@ -1,0 +1,6 @@
+base: configs/base.yaml
+
+loss:
+  name: ReWeightCELoss
+  dist_file: /ssdata0/thliang/chaohu-68/dist.csv
+

@@ -1,0 +1,7 @@
+base: configs/base.yaml
+
+dataloader:
+  sampler:
+    name: SquareRootSampler
+    dist_file: /ssdata0/thliang/chaohu-68/dist.csv
+

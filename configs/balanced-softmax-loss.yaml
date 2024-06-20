@@ -1,0 +1,6 @@
+base: configs/base.yaml
+
+loss:
+  name: BalancedSoftmaxLoss
+  dist_file: /ssdata0/thliang/chaohu-68/dist.csv
+

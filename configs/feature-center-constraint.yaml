@@ -1,0 +1,12 @@
+base: configs/base.yaml
+
+model:
+  name: resnet34_fe
+
+loss:
+  name: FeatureCenterConstraint.yaml
+  in_features: 512
+  num_classes: 68
+  lambda_: 0.05
+  weights: true
+

@@ -1,0 +1,7 @@
+base: configs/base.yaml
+
+loss:
+  name: EffectiveNumberLoss
+  dist_file: /ssdata0/thliang/chaohu-68/dist.csv
+  beta: 0.9
+

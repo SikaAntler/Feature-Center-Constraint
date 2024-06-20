@@ -1,0 +1,6 @@
+base: configs/base.yaml
+
+loss:
+  name: TauNormalizedLoss
+  tau: 1.0
+

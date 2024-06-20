@@ -1,0 +1,7 @@
+base: configs/base.yaml
+
+loss:
+  name: LogitAdjustedLoss
+  dist_file: /ssdata0/thliang/chaohu-68/dist.csv
+  tau: 1.0
+

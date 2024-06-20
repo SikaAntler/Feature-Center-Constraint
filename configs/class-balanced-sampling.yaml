@@ -1,0 +1,6 @@
+base: configs/base.yaml
+
+dataloader:
+  sampler:
+    name: ClassBalancedSampler
+

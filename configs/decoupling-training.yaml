@@ -1,0 +1,8 @@
+base: configs/base.yaml
+
+train:
+  num_epochs: 120
+
+lr_scheduler:
+  num_epochs: 120
+
