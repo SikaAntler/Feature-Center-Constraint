@@ -1,0 +1,33 @@
+train:
+  num_epochs: 150
+  best_or_last: last
+
+model:
+  name: resnet34
+  num_classes: 68
+
+loss:
+  name: CrossEntropyLoss
+
+optimizer:
+  name: SGD
+  lr: 0.1
+  momentum: 0.9
+  weight_decay: 0.0001
+
+lr_scheduler:
+  name: CosineAnnealingLRWarmUp
+  num_epochs: 150
+  warmup: 5
+
+dataloader:
+  batch_size: 64
+  dataset:
+    name: AlgalImages
+    train: /ssdata0/thliang/chaohu-68/train_set.csv
+    val: /ssdata0/thliang/chaohu-68/val_set.csv
+    test: /ssdata0/thliang/chaohu-68/val_set.csv
+    target_names: /ssdata0/thliang/chaohu-68/genus_names.csv
+    img_size: 320
+    pad_value: [0, 0, 0]
+
