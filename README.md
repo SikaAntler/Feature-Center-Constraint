@@ -18,7 +18,7 @@ Following by the module `TorchSweetie`, we used configuration files to manage th
 
 All configuration files were stored in the directory `./configs/`.
 
-As you can see, to ensure a fair comparison of various methods, we firstly wrote a basic configuration, including backbone network, dataset, optimizer, epochs, etc.
+As you can see, to ensure a fair comparison of various methods, we firstly wrote a [basic configuration](./configs/base.yaml), including backbone network, dataset, optimizer, epochs, etc.
 
 Based on this, we created a new configuration for each method. The details are shown in the table below:
 
@@ -34,4 +34,12 @@ Based on this, we created a new configuration for each method. The details are s
 |                            | [Balanced-Softmax Loss](./configs/balanced-softmax-loss.yaml) |   0.916   |   0.793   |
 |                            |  [Logit-Adjusted Loss](./configs/logit-adjusted-loss.yaml)   |   0.893   |   0.804   |
 | Feature-Similarity-Metrics | [Feature-Center-Constraint](./configs/feature-center-constraint.yaml) | **0.929** | **0.878** |
+
+## Long-Tailed Distribution
+
+![](long-tailed-distribution.png)
+
+The above figure is from the pape, indicating that the dataset exhibits a long-tailed distribution. 
+
+Following the commetns of the editor and reviewers, we provide the specific number of images by a [csv file](dist.csv).
 
