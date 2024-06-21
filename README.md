@@ -39,7 +39,16 @@ Based on this, we created a new configuration for each method. The details are s
 
 ![](long-tailed-distribution.png)
 
-The above figure is from the pape, indicating that the dataset exhibits a long-tailed distribution. 
+The above figure is from the paper, indicating that the dataset exhibits a long-tailed distribution. 
 
-Following the commetns of the editor and reviewers, we provide the specific number of images by a [csv file](dist.csv).
+Following the comments of the editor and reviewers, we provide the specific number of images by a [csv file](dist.csv).
 
+## Cross-Entropy V.S. Feature-Center-Constraint
+
+![](plot_num_f1.png)
+
+The above figure is from the paper. The x-axis represents the genus indices sorted by the number of images from high to low, and the y-axis represents the F1 score.
+
+The blue line and the red line in the figure represent the F1 scores of the cross-entropy method and feature-center-constraint method for each genus, respectively.
+
+Following the comments of the editor and reviewers, we provide the detailed F1 scores of the two methods for each genus by a [csv file](num_f1.csv).
